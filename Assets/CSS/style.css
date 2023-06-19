@@ -1,0 +1,256 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 5, 63);
+}
+
+  h1 {
+    font-size: 300%;
+    padding-left: 7%;
+    padding-right: 1%;
+    color: darkblue;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 11px;
+  }
+ 
+ 
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-top: 30px;
+    min-width: 500px;
+    font-size: 150%;
+    text-underline-position: under;
+  }
+  
+  nav a {
+    color: lightblue;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+img {
+    width: 100%;
+    height: auto;
+}  
+   h2 {
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 29%;
+    padding: 1%;
+    font-size: 220%;
+    background-color: lightblue;
+    color: darkblue;   
+  }
+
+  aside h3 {
+    color: navy;
+    font-size: 300%;
+    margin-left: 5%;
+    padding-right: 2%;
+    width: min-content;
+    border-right: 6px solid navy;
+    margin-top: 30px;
+    height: 425px;
+    text-align: end;
+}
+
+aside p {
+    color: navy;
+    margin-left: 17%;
+    margin-top: -22%;
+    margin-right: 2%;
+}
+
+aside h4 {
+      color: navy;
+      font-size: 300%;
+      margin-left: 7%;
+      padding-right: 1%;
+      width: min-content;
+      border-right: 6px solid navy;
+      margin-top: 30px;
+      height: 1450px;
+  }  
+
+.image1 {
+  width: 81%;
+  height: auto;
+  float:right;
+  margin-right: 2%;
+  margin-top: -75%;
+  box-shadow:0 0 0 6px lightblue;
+}
+
+div.contact {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: -60.5%;
+  padding: 1%;
+  font-size: 220%;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+div.a{
+  font-size: 29px;
+}
+
+div.b{
+  font-size: 16px;
+}
+
+.image2 {
+    width: 38%;
+    height: auto;
+    float:left;
+    margin-left: 17%;
+    margin-top: -50%;
+    box-shadow:0 0 0 6px lightblue;
+}
+
+div.robot {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: -33.5%;
+  padding: 1%;
+  font-size: 220%;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+div.c{
+  font-size: 29px;
+}
+
+div.d{
+  font-size: 16px;
+}
+
+.image3 {
+  width: 40.6%; 
+  height: auto;
+  float:left;
+  margin-left: 57%;
+  margin-top: -50%;
+  box-shadow:0 0 0 6px lightblue;
+}
+
+div.CityatNight {
+  position: absolute;
+  margin-left: 57%;
+  margin-top: -33.5%;
+  padding: 1%;
+  font-size: 220%;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+div.e{
+  font-size: 29px;
+}
+
+div.f{
+  font-size: 16px;
+}
+
+.image4 {
+  width: 38%;
+  height: auto;
+  float:left;
+  margin-left: 17%;
+  margin-top: -22.7%;
+  box-shadow:0 0 0 6px lightblue;
+}
+
+div.FutureCity {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: -10%;
+  padding: 1%;
+  font-size: 220%;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+div.g{
+  font-size: 29px;
+}
+
+div.h{
+  font-size: 16px;
+}
+
+
+.image5 {
+    width: 40.6%;
+    height: auto;
+    float:left;
+    margin-left: 57%;
+    margin-top: -22.3%;
+    box-shadow:0 0 0 6px lightblue;
+}
+
+div.GreenCity {
+  position: absolute;
+  margin-left: 57%;
+  margin-top: -10%;
+  padding: 1%;
+  font-size: 220%;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+aside h5 {
+  color: navy;
+  font-size: 300%;
+  margin-left: 4%;
+  padding-right: 1%;
+  width: min-content;
+  border-right: 6px solid navy;
+  margin-top: 30px;
+  height: 200px;
+  text-align: end;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 267px;
+  margin-top: -131px;
+  min-width: 500px;
+  font-size: 200%;
+  color:lightblue;
+  text-underline-position: under;
+}
+
+.nav2 a {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.nav2 a:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
