@@ -11,7 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(14, 5, 63);
+    background-color: white;
+    margin: .5%;
   }
   
   /* Styles for the h1 element */
@@ -23,56 +24,66 @@ body {
     background-color: lightblue;
     margin: 10px 0 11px;
   }
+
+  /* Styles for Raj image */
+  .Raj {
+    width: 10%;
+    height: auto;
+    margin-top: 38px;
+    margin-bottom: 33px;
+    margin-right: 21%;
+    box-shadow: 0 0 0 6px lightblue;
+  }
   
   /* Styles for the nav ul element */
   nav ul {
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
-    margin-top: 30px;
-    min-width: 500px;
-    font-size: 150%;
+    margin-top: 37px;
+    min-width: 758px;
+    font-size: 184%;
     text-decoration: underline;
   }
   
   /* Styles for the nav anchor elements */
   nav a {
-    color: lightblue;
+    color: darkblue;
     font-weight: bold;
   }
   
   /* Styles for the nav anchor elements when hovering */
   nav a:hover {
-    color: #fff;
-  }
-  
-  /* Styles for the img elements */
-  img {
-    width: 100%;
-    height: auto;
+    color: black;
   }
   
   /* Styles for the h2 element */
   h2 {
     position: absolute;
-    margin-left: 59%;
-    margin-top: 29%;
-    padding: 1%;
-    font-size: 220%;
+    margin-left: 76%;
+    margin-top: 4%;
+    padding: .25%;
+    font-size: 138%;
     background-color: lightblue;
     color: darkblue;
+  }
+
+  .banner {
+    width: 99.5%;
+    height: auto;
+    margin-left: .25%;
   }
   
   /* Styles for the aside h3 element */
   aside h3 {
     color: navy;
-    font-size: 300%;
+    font-size: 250%;
     margin-left: 5%;
-    padding-right: 2%;
+    padding-right: 3%;
     width: min-content;
-    border-right: 6px solid navy;
+    border-right: 4px solid navy;
     margin-top: 30px;
-    height: 425px;
+    height: 285px;
     text-align: end;
   }
   
@@ -80,103 +91,118 @@ body {
   aside p {
     color: navy;
     margin-left: 17%;
-    margin-top: -22%;
+    margin-top: -14%;
     margin-right: 2%;
   }
   
   /* Styles for the aside h4 element */
   aside h4 {
     color: navy;
-    font-size: 300%;
-    margin-left: 7%;
-    padding-right: 1%;
+    font-size: 250%;
+    margin-left: 5.75%;
+    padding-right: 3%;
     width: min-content;
-    border-right: 6px solid navy;
-    margin-top: 30px;
-    height: 1450px;
+    border-right: 4px solid navy;
+    margin-top: 47px;
+    height: 1050px;
+    text-align: end;
+    position: relative;
+
   }
   
-  /* Styles for the image1 class */
-  .image1 {
+  /* Styles for the work images */
+  aside .password {
     width: 81%;
-    height: auto;
-    float: right;
-    margin-right: 2%;
-    margin-top: -75%;
-    box-shadow: 0 0 0 6px lightblue;
-  }
-  
-  /* Styles for the div.contact, div.robot, div.CityatNight, div.FutureCity, div.GreenCity elements */
-  div.contact,
-  div.robot,
-  div.CityatNight,
-  div.FutureCity,
-  div.GreenCity {
+    margin-left: 17%;
+    margin-top: -58%;
     position: absolute;
+  }
+
+  aside {
+    overflow: visible;
+  }
+
+  div.passwordGenerator {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: -56.5%;
     padding: 1%;
     font-size: 220%;
     background-color: lightblue;
     color: darkblue;
   }
   
-  /* Styles for the div.contact and div.robot elements */
-  div.contact,
-  div.robot {
-    margin-left: 17%;
-  }
-  
-  /* Styles for the div.a, div.b, div.c, div.d, div.e, div.f, div.g, div.h elements */
-  div.a,
-  div.b,
-  div.c,
-  div.d,
-  div.e,
-  div.f,
-  div.g,
-  div.h {
+  div.a{
     font-size: 29px;
   }
   
-  /* Styles for the div.b, div.d, div.f, div.h elements */
-  div.b,
-  div.d,
-  div.f,
-  div.h {
+  div.b{
     font-size: 16px;
   }
   
-  /* Styles for the image2, image3, image4, image5 elements */
-  .image2,
-  .image3,
-  .image4,
-  .image5 {
-    width: 38%;
-    height: auto;
-    float: left;
-    margin-top: -50%;
-    box-shadow: 0 0 0 6px lightblue;
+  
+  aside .image2 {
+    width: 40%;
+    margin-left: 17%;
+    margin-top: -29%;
+    position: absolute;
   }
   
-  /* Styles for the image3 and image5 elements */
-  .image3,
-  .image5 {
-    margin-left: 57%;
+  div.Swirls {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: -27.5%;
+    padding: 1%;
+    font-size: 220%;
+    background-color: lightblue;
+    color: darkblue;
   }
   
-  /* Styles for the aside-heading class */
-  .aside-heading {
+  div.c{
+    font-size: 29px;
+  }
+  
+  div.d{
+    font-size: 16px;
+  }  
+
+  aside .image3 {
+    width: 40%;
+    margin-left: 58%;
+    margin-top: -29%;
+    position: absolute;
+  }
+
+  div.DigitalScreen {
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -27.5%;
+    padding: 1%;
+    font-size: 220%;
+    background-color: lightblue;
+    color: darkblue;
+  }
+  
+  div.e{
+    font-size: 29px;
+  }
+  
+  div.f{
+    font-size: 16px;
+  }
+  
+  aside h5 {
     color: navy;
-    font-size: 300%;
-    margin-left: 5%;
-    padding-right: 1%;
+    font-size: 250%;
+    margin-left: 3.25%;
+    padding-right: 3%;
     width: min-content;
-    border-right: 6px solid navy;
+    border-right: 4px solid navy;
     margin-top: 30px;
     height: 200px;
     text-align: end;
   }
   
-  /* Styles for the nav2 element */
   .nav2 {
     display: flex;
     justify-content: space-around;
@@ -184,17 +210,36 @@ body {
     margin-top: -131px;
     min-width: 500px;
     font-size: 200%;
-    color: lightblue;
-    text-decoration: underline;
+    color:lightblue;
+    text-underline-position: under;
   }
   
-  /* Styles for the nav2 anchor elements */
   .nav2 a {
     color: darkblue;
     font-weight: bold;
   }
   
-  /* Styles for the nav2 anchor elements when hovering */
   .nav2 a:hover {
     color: black;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    /* Change the header color */
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    /* Change the header color */
+    header {
+      background: #8ac4ff;
+    }
   }
