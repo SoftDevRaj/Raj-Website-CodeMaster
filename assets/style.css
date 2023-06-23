@@ -233,13 +233,84 @@ body {
     }
   }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-    /* Change the header color */
-    header {
-      background: #8ac4ff;
-    }
+ 
+/* Media Query for smaller screens */
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
   }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .Raj {
+    width: 30%;
+    margin-right: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 0;
+    min-width: 0;
+    font-size: 100%;
+  }
+
+  nav li {
+    margin-top: 10px;
+  }
+
+  aside h3, aside h4, aside h5 {
+    margin-left: 0;
+    padding-right: 0;
+    width: auto;
+    border-right: none;
+    margin-top: 15px;
+    height: auto;
+    text-align: start;
+  }
+
+  aside .password, aside .image2, aside .image3 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    position: static;
+  }
+
+  div.passwordGenerator, div.Swirls, div.DigitalScreen {
+    position: static;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 150%;
+  }
+
+  div.a, div.b, div.c, div.d, div.e, div.f {
+    font-size: 14px;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0;
+    margin-top: 10px;
+    min-width: 0;
+    font-size: 100%;
+    color: lightblue;
+    text-underline-position: under;
+  }
+
+  .nav2 li {
+    margin-top: 10px;
+  }
+  
+  /* Remove border-right from h3, h4, and h5 */
+  aside h3,
+  aside h4,
+  aside h5 {
+    border-right: none;
+  }
+}
